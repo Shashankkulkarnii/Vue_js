@@ -12,6 +12,7 @@
         <ul>    
            <h5> <li v-for="employe in vm.db" :key=employe>name: {{employe.name}} age:{{employe.age}} company:{{employe.company}}</li></h5>
         </ul>
+        
 </div>
         
 

@@ -15,6 +15,7 @@
     <transition/>
     <props name="shashank" v-bind:arydata="arydata" /> 
     <filters/>
+    <customDirective/>
      
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   </div>
@@ -32,6 +33,7 @@ import forms from './components/forms.vue'
 import transition from './components/transition.vue'
 import Props from './components/propes.vue'
 import filters from './components/filter.vue'
+import customDirective from './components/customDirectives.vue'
 export default {
   name: 'App',
       methods:{
@@ -63,7 +65,8 @@ export default {
    forms,
    transition,
     Props,
-    filters
+    filters,
+    customDirective
    
   },
  
