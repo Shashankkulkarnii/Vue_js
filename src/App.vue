@@ -16,7 +16,9 @@
     <props name="shashank" v-bind:arydata="arydata" /> 
     <filters/>
     <customDirective/>
-     
+    <mixincom1/> 
+    <mixincom2/>
+    <axious/>
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   </div>
 </template>
@@ -34,6 +36,9 @@ import transition from './components/transition.vue'
 import Props from './components/propes.vue'
 import filters from './components/filter.vue'
 import customDirective from './components/customDirectives.vue'
+import mixincom1 from './components/mixincom1.vue'
+import mixincom2 from './components/mixincom2.vue'
+import axious from './components/axios.vue'
 export default {
   name: 'App',
       methods:{
@@ -66,7 +71,10 @@ export default {
    transition,
     Props,
     filters,
-    customDirective
+    customDirective,
+    mixincom1,
+    mixincom2,
+    axious
    
   },
  
