@@ -19,7 +19,8 @@
     <mixincom1/> 
     <mixincom2/>
     <axious/>
-    <indexedDB/>
+    <!-- <indexedDB/> -->
+    <indexeddb2/>
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   </div>
 </template>
@@ -40,7 +41,8 @@ import customDirective from './components/customDirectives.vue'
 import mixincom1 from './components/mixincom1.vue'
 import mixincom2 from './components/mixincom2.vue'
 import axious from './components/axios.vue'
-import indexedDB from './components/indexedDB.vue'
+// import indexedDB from './components/indexedDB.vue'
+import indexeddb2 from './components/indexeddb2.vue'
 
 export default {
   name: 'App',
@@ -78,7 +80,8 @@ export default {
     mixincom1,
     mixincom2,
     axious,
-    indexedDB
+    // indexedDB,
+    indexeddb2
    
   },
  
